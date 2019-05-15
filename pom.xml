@@ -15,6 +15,7 @@
         <module>commands</module>
         <module>guice</module>
         <module>protobuf</module>
+        <module>J8</module>
     </modules>
 
     <modelVersion>4.0.0</modelVersion>
