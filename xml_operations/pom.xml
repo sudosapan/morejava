@@ -9,9 +9,7 @@
         <version>0.1.1</version>
     </parent>
 
-    <groupId>com.sapan.xml</groupId>
     <artifactId>xml_operations</artifactId>
-    <version>0.0.1</version>
 
 
 </project>
