@@ -21,9 +21,14 @@
         <module>logback_feature</module>
         <module>pools</module>
         <module>problems</module>
+        <module>json</module>
+        <module>metrics</module>
     </modules>
 
     <modelVersion>4.0.0</modelVersion>
+    <properties>
+        <metrics.version>3.1.0</metrics.version>
+    </properties>
 
 
     <dependencyManagement>
@@ -70,6 +75,21 @@
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-core</artifactId>
                 <version>1.1.11</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>2.10.2</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>2.10.2</version>
+            </dependency>
+            <dependency>
+                <groupId>io.dropwizard.metrics</groupId>
+                <artifactId>metrics-core</artifactId>
+                <version>${metrics.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
