@@ -1,7 +1,5 @@
 public class GenericTypeTest {
-    public <V extends B> Test<V> method(Test<V> a) {
-        return new Test<V>((V) new C());
-    }
+
 }
 
 class A {
@@ -13,10 +11,10 @@ class B extends A {
 class C extends B {
 }
 
-class Test<T> {
+class Player1<T> {
     T obj;
 
-    public Test(T t) {
+    public Player1(T t) {
         this.obj = t;
     }
 

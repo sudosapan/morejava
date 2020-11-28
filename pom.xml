@@ -23,6 +23,7 @@
         <module>problems</module>
         <module>json</module>
         <module>metrics</module>
+        <module>stream</module>
     </modules>
 
     <modelVersion>4.0.0</modelVersion>

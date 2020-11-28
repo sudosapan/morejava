@@ -20,7 +20,7 @@ public interface PooledObject {
     boolean equals(PooledObject other);
 
     /**
-     * just to make sure that the implememtinh classes have a proper hashcode implementation.
+     * just to make sure that the implementing classes have a proper hashcode implementation.
      */
     int hashCode();
 }
