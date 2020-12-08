@@ -14,7 +14,6 @@
         <module>grpc</module>
         <module>commands</module>
         <module>guice</module>
-        <module>protobuf</module>
         <module>J8</module>
         <module>core_concepts</module>
         <module>email</module>
